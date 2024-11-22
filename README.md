@@ -28,8 +28,24 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 Incluindo a imagem do resuntado apois o npm start. 
 
 
-![Texto alternativo](C:\Users\Aluno\Pictures\Screenshots\atv react.png)
+![Texto alternativo](resultado.png)
 
 
 5- Subir para o git hub toda a atividade.
 
+Explicação do codigo(NavBar) do passo 3: 
+
+1- <Navbar dark color="primary">:
+Cria uma barra de navegação com o tema escuro e o fundo da cor azul
+
+2-  <div calssName= "container">: 
+Deixa centralizado o conteúdo e aplica um espaço apropriado usando o container do Bootsrap. 
+
+3- <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>:
+Mostra o nome do site, "Restorante Con Fusion", como um link que leva á pagina inicial. 
+
+4- <div>Aluno: Fulano de Tal</div>:
+Mostra o nome do aluno na barra de navegação
+
+5- Fechamento do <Navbar>:
+Finaliza a barra do navegador, organizando o conteúdo de forma correta.
